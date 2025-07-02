@@ -32,12 +32,12 @@ background-color: #FFF8F3;
    border: 0px;
 }
 
-.sectiom-title{
+.section-title{
   font-size: 35px;
   font-weight: bold;
   color:#181818 ;
 }
-.sectiom-description{
+.section-description{
   font-size: 18px;
   color: #757575;
 }
@@ -58,7 +58,7 @@ nav{
 }
 
 
-.nav-titlte{
+.nav-title{
   font-weight: 800;
   font-size:45px ;
 }
@@ -85,7 +85,7 @@ nav li a{
   margin: 0 35px 0 200px ;
 }
 
-.banner-contant{
+.banner-content{
   max-width: 580px;
 }
 
