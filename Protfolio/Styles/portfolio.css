@@ -19,6 +19,9 @@ background-color: #FFF8F3;
   color: #FD6E0A;
 }
 
+.text-center{
+  text-align: center;
+}
 .dark-2{
   color: #474747;
 }
@@ -114,12 +117,17 @@ main{
   
 }
 
+main section{
+  margin-top: 130px;
+  margin-bottom:130px ;
+}
+
 /* About Section */
 .about{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
+
 }
 
 .about-items{
@@ -136,3 +144,85 @@ margin-top: 30px;
   font-weight:600 ;
   margin-top: 5px;
 }
+
+/* Skill Section Style */
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume-section Style */
+.section-title{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.resume-box{
+  display: flex;
+  gap:24px ;
+}
+
+.experience-sub-title{
+  font-size: 20px;
+  font-weight:600 ;
+  margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+  color: #757575;
+}
+ .resume hr{
+  margin: 30px 5px;
+  
+ }
+
+ .downlodCV{
+  text-align: center;
+  margin-top: 50px;
+ }
+ .resume-column-title{
+  font-size: 30px;
+ }
+ .experience-sub-title{
+  font-size: 20px;
+ }
+ .experience-title{
+  font-size: 25px;
+ }
+ .experience-description{
+  font-size: 15px;
+ }
+
+ /* Footer Style */
+ footer{
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  padding: 130px 200px;
+ }
+ .footer-column{
+  width: 50%;
+ }
+
+ .social-links a{
+  margin-right: 25px;
+ }
+ footer input[type="text"],  footer input[type="email"], footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 18px 32px;
+    margin-bottom: 24px;
+    border:none;
+}
+.fH3{
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
